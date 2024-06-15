@@ -1,4 +1,4 @@
-#Using Tkinter , Let User input independent variables
+
 import tkinter as tk
 from tkinter import ttk
 from PIL import Image, ImageTk
