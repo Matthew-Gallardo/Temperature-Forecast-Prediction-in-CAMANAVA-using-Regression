@@ -23,7 +23,11 @@
   - Temperature: `main.temp`
 
 - **Independent Variables:**
-  c
+  - Atmospheric Pressure: `main.pressure` (hPa, on the sea level)
+  - Humidity: `main.humidity` (%)
+  - Cloudiness: `clouds.all` (%)
+  - Weather Condition: `weather.id`
+  - Wind Speed: `wind.speed`
 
 ### Data Splitting
 - Split the dataset into training and testing sets, preserving temporal data, with an 80/20 ratio.
